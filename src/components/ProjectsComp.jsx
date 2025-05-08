@@ -24,7 +24,7 @@ export default function ProjectsComp({ projectList }) {
               Tipo di progetto: <strong>{project.type.name}</strong>
             </h5>
             <Link
-              to="/projects/{id}"
+              to={`/single-project/${project.id}`}
               className="bg-blue-300 px-2 py-1 rounded-lg self-center mt-4"
             >
               Maggiori informazioni
