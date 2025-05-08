@@ -6,7 +6,7 @@ export default function DefaultLayout() {
   return (
     <>
       <Header />
-      <main className="h-screen bg-gray-900">
+      <main className="bg-gray-900">
         <div className="w-[1200px] mx-auto ">
           <Outlet />
         </div>
