@@ -5,6 +5,12 @@ export default function SingleProjectComp({ project }) {
       <h2>
         Titolo progetto: <strong>{project?.name}</strong>
       </h2>
+      <div>
+        <img
+          src={`${import.meta.env.VITE_BE_IMG_URL}${project?.image}`}
+          alt={`immagine per progetto "${project?.name}"`}
+        />
+      </div>
       <h3>
         Realizzato per: <strong>{project?.client}</strong>
       </h3>
