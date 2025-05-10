@@ -8,9 +8,9 @@ export default function ProjectsComp({ projectList }) {
         return (
           <li
             key={project.id}
-            className="bg-neutral-300 p-3 flex flex-col gap-2"
+            className="bg-neutral-300 p-3 flex flex-col gap-2 rounded-xl"
           >
-            <h2 className="bg-slate-400 px-2 py-1">
+            <h2 className="bg-slate-400 px-2 py-1 rounded-md">
               Titolo progetto: <strong>{project.name}</strong>
             </h2>
             <h3>
